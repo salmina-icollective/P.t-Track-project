@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login_details">
+  <test name="Validate_Login">
+	  
+	  
+      <parameter name="emailid" value="salmina@icollective.agency"/>
+      <parameter name="password" value="SALMINA@testing20"/>
+      
+      <classes>
+		  <!--
+      <class name="administration.Company_Module">
+      <methods>
+		  <include name="Setup"/>
+		  <include name="Validate_Login"/>
+		  <include name="Admin_Nav_to_comp"/>
+		  
+		  <include name="ListCompany"></include>
+		  <include name="search"/>
+		  <include name="AddCompany_ServiceProviderNo"/>
+		  <include name="Archive"></include>
+		  
+		  <include name="AddCompany_SelectCompanies"/>
+		  <include name="AddCompany_All"/>
+		  <include name="Edit_Company"/>
+		   
+	  </methods>
+	  </class>
+	  
+	  <class name="administration.Division">
+      <methods>
+		  <include name="Setup"/>
+		  <include name="Validate_Login"/>
+		  <include name="Admin_Nav_to_div"/>
+		 
+		  <include name="Add_division"></include>
+		  <include name="Edit_division"></include>
+		  <include name="Archive_division"></include>
+		  <include name="Search_division"></include>
+		  <include name="List_division"></include>
+		 
+	  </methods>
+	  </class>
+	  
+	  <class name="administration.Category_Module">
+		  <methods>
+			  
+			  <include name="Setup"/>
+		      <include name="Validate_Login"/>
+		      <include name="Admin_Nav_to_div"/>
+		      <include name="Add_category"></include>
+			  <include name="Edit_category"></include>
+			  <include name="Archive_category"></include>
+			  <include name="List_division"></include>
+			  <include name="Search_category"></include>
+			  
+			  
+		  </methods>
+	  </class>
+	  
+	  <class name="administration.Longevity_Module">
+		  <methods>
+			   
+			  <include name="Setup"/>
+		      <include name="Validate_Login"/>
+		      <include name="Admin_Nav_to_div"/>
+		      
+			  <include name="Add_Longevity"></include>
+			  <include name="Edit_longevity"></include>
+			  <include name="Archive_longevity"></include>
+			  <include name="Search_longevity"></include>
+			  
+			  
+			  <include name="List_longevity"></include>
+		  </methods>
+	  </class>
+	  -->
+	  <class name="administration.Company_Module_UI">
+		  <methods>
+			  <include name="Setup"/>
+		      <include name="Validate_Login"/>
+		      <include name="Admin_Nav_to_comp"/>
+			  <include name="ListCompany_UI"></include>
+		  </methods>
+		  
+	  </class>
+      </classes>
+      
+  </test> <!-- Test -->    
+</suite> <!-- Suite -->

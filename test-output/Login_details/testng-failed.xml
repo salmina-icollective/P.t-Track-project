@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login_details]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Validate_Login(failed)">
+    <parameter name="password" value="SALMINA@testing20"/>
+    <parameter name="emailid" value="salmina@icollective.agency"/>
+    <classes>
+      <class name="administration.Company_Module_UI">
+        <methods>
+          <include name="ListCompany_UI"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- administration.Company_Module_UI -->
+    </classes>
+  </test> <!-- Validate_Login(failed) -->
+</suite> <!-- Failed suite [Login_details] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="administration.Division">
+        <methods>
+          <include name="Edit_division"/>
+          <include name="Admin_Nav_to_div"/>
+          <include name="Add_division"/>
+          <include name="Archive_division"/>
+          <include name="Setup"/>
+          <include name="Validate_Login"/>
+        </methods>
+      </class> <!-- administration.Division -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
